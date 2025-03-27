@@ -2,16 +2,25 @@ package Ejercicio1;
 
 public class Empleado {
 	
-	private int id;
+	private final int id;
 	private String nombre;
 	private int edad;
+	
+	// variable de la clase y no de los objetos
+	private static int cont = 1000;
+	// constructor
+	public Empleado()
+	{
+	 this.id = cont++;
+	 this.nombre = "sin nombre";
+	 this.edad = 99;
+	}
+	
+
 	
 	
 	public int getId() {
 		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
 	}
 	public String getNombre() {
 		return nombre;

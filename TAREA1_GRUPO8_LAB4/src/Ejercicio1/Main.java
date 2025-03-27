@@ -12,7 +12,6 @@ public class Main {
 
 		 empleado1.setEdad(22);
 		 System.out.println(empleado1.getEdad());
-		
 	}
 
 }
