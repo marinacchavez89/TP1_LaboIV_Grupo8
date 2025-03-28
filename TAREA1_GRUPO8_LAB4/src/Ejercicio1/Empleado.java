@@ -17,12 +17,11 @@ public class Empleado {
 	}
 	
 	// Segundo constructor (recibe nombre y edad como parámetros)
-		public Empleado(String nombre, int edad) {
-			this.id = cont++; // Se mantiene el autoincremento del id
-			this.nombre = nombre;
-			this.edad = edad;
-		}
-
+	public Empleado(String nombre, int edad) {
+		this.id = cont++; 
+		this.nombre = nombre;
+		this.edad = edad;
+	}
 	
 	
 	public int getId() {
