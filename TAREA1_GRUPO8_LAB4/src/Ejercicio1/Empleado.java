@@ -45,5 +45,12 @@ public class Empleado {
 		idProximo = idAnterior;
 		return idProximo;
 	}
+
+	@Override
+	public String toString() {
+		return "Empleado ID:" + id + ", NOMBRE:" + nombre + ", EDAD:" + edad;
+	}
+	
+	
 	
 }
